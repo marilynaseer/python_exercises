@@ -2,7 +2,7 @@ from sys import argv
 from os.path import exists
 
 script,from_file,to_file=argv
-
+print argv[0]
 print "copying from %s to %s" %(from_file,to_file)
 
 input=open(from_file)
